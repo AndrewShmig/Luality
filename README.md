@@ -1,12 +1,19 @@
 #Luality
 
 + Algorithms
++ Coroutine
++ Debug
++ File
++ OS
++ Package
 + Data structures
-	+ ...
-+ Strings
+	+ Stack (class)
++ String
 + Math
 + IO
 + Network
++ Table
+	+ remove_all (function)
 
 #License
 Copyright (c) 2013 Andrew Shmig
