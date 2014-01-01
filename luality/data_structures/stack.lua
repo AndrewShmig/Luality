@@ -42,5 +42,15 @@ function Stack:is_empty()
   return #self == 0
 end
 
+function Stack:to_array()
+	local array = {}
+  
+  for _, value in ipairs(self) do
+    array[#array + 1] = value
+  end
+  
+  return array
+end
+
 -- return
 return Stack
