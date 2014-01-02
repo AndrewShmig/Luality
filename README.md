@@ -7,7 +7,6 @@
 + OS
 + Package
 + Data structures
-	+ Stack (class)
 + String
 + Math
 + IO
