@@ -8,13 +8,15 @@ Luality = {}
 
 -- algorithms
 -- data_structures
-Luality.Stack = require("data_structures.stack")
 -- math
 -- io
 -- network
 -- string
 -- table
 require("table.remove_all")
+require("table.filter")
+require("table.map")
+require("table.remove_nils")
 -- coroutine
 -- debug
 -- file
