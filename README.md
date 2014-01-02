@@ -13,6 +13,9 @@
 + Network
 + Table
 	+ remove_all (function)
+	+ filter (function)
+	+ remove_nils (function)
+	+ map (function)
 	
 #How to install?
 
