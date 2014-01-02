@@ -12,11 +12,11 @@
 + IO
 + Network
 + Table
-	+ remove_all (function)
-	+ filter (function)
-	+ remove_nils (function)
-	+ map (function)
-	+ size (function)
+	+ remove_all
+	+ filter
+	+ remove_nils
+	+ map
+	+ size
 	
 #How to install?
 ####Step 1

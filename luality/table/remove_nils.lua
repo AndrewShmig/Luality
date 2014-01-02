@@ -4,9 +4,9 @@
 -- 
 -- local t = {1, nil, nil, 89}
 -- local new_t = table.remove_nils(t) -- {1, 89}
-
+--
 -- Won't work if table looks like this:
---- local t = {[1] = 2, [3] = 6, nil, nil, ["hello"] = 45}
+-- local t = {[1] = 2, [3] = 6, nil, nil, ["hello"] = 45}
 
 -- returns a new table with nils removed (works only for arrays)
 local new_table = {}
