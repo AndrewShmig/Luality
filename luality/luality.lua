@@ -17,6 +17,7 @@ require("table.remove_all")
 require("table.filter")
 require("table.map")
 require("table.remove_nils")
+require("table.size")
 -- coroutine
 -- debug
 -- file

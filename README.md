@@ -16,6 +16,7 @@
 	+ filter (function)
 	+ remove_nils (function)
 	+ map (function)
+	+ size (function)
 	
 #How to install?
 

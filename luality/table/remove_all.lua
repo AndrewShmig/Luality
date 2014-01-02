@@ -7,9 +7,7 @@
 
 -- removes all elements from current table
 function table.remove_all(self)
-  table.map(self, function (key, value)
-      return nil
-  end)
+  table.map(self, function (key, value) return nil end)
 end
 
 -- return

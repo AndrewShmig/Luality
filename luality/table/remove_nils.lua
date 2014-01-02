@@ -8,8 +8,8 @@
 -- Won't work if table looks like this:
 --- local t = {[1] = 2, [3] = 6, nil, nil, ["hello"] = 45}
 
--- returns a new table with values for which fn function returned true
-local table_without_nils = {}
+-- returns a new table with nils removed (works only for arrays)
+local new_table = {}
 
 function table.remove_nils(self)
   local count_args = select("#", table.unpack(self))
@@ -18,13 +18,13 @@ function table.remove_nils(self)
     local first_arg = table.unpack(self)
     
     if first_arg ~= nil then
-      table_without_nils[#table_without_nils + 1] = first_arg
+      new_table[#new_table + 1] = first_arg
     end
     
     table.remove_nils(table.pack(select(2, table.unpack(self))))
   end
   
-  return table_without_nils
+  return table.remove_nils(new_table)
 end
 
 -- return
