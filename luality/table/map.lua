@@ -11,9 +11,13 @@
 
 -- calls function fn on each key-value pair from table self and sets new value for key
 local function map(self, fn)
+  local new_self = {}
+  
   for key, value in pairs(self) do
-    self[key] = fn(key, value)
+    new_self[key] = fn(key, value)
   end
+  
+  return new_self
 end
 
 -- return

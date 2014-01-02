@@ -16,7 +16,7 @@ Luality.Coroutine = {}
 Luality.Debug = {}
 Luality.File = {}
 Luality.OS = {}
-Luslity.Package = {}
+Luality.Package = {}
 
 -- algorithms
 -- data_structures

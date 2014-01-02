@@ -2,12 +2,14 @@
 
 -- How to use?
 --
--- local t = {} -- address 0xibot7v7
+-- local t = {1, 2, 3, 4, 5} -- t has address 0xibot7v7
 -- table.remove_all(t) -- t is empty now and has 0xibot7v7 address
 
 -- removes all elements from current table
 local function remove_all(self)
-  table.map(self, function (key, value) return nil end)
+  for key, _ in pairs(self) do
+    self[key] = nil
+  end
 end
 
 -- return

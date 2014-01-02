@@ -21,10 +21,10 @@ local function remove_nils(self)
       new_table[#new_table + 1] = first_arg
     end
     
-    table.remove_nils(table.pack(select(2, table.unpack(self))))
+    Luality.Table.remove_nils(table.pack(select(2, table.unpack(self))))
   end
   
-  return table.remove_nils(new_table)
+  return new_table
 end
 
 -- return
