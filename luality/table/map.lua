@@ -10,11 +10,11 @@
 -- print(table.unpack(t)) -- {1, 4, 9, 16}
 
 -- calls function fn on each key-value pair from table self and sets new value for key
-function table.map(self, fn)
+local function map(self, fn)
   for key, value in pairs(self) do
     self[key] = fn(key, value)
   end
 end
 
 -- return
-return table
+return map

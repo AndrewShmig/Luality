@@ -10,7 +10,7 @@
 -- print(table.unpack(even)) -- {2, 4}
 
 -- returns a new table with values for which fn function returned true
-function table.filter(self, fn)
+local function filter(self, fn)
   local new_table = {}
   
   for key, value in pairs(self) do
@@ -23,4 +23,4 @@ function table.filter(self, fn)
 end
 
 -- return
-return table
+return filter

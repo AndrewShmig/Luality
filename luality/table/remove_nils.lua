@@ -11,7 +11,7 @@
 -- returns a new table with nils removed (works only for arrays)
 local new_table = {}
 
-function table.remove_nils(self)
+local function remove_nils(self)
   local count_args = select("#", table.unpack(self))
   
   if count_args ~= 0 then
@@ -28,4 +28,4 @@ function table.remove_nils(self)
 end
 
 -- return
-return table
+return remove_nils

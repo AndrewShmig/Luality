@@ -9,7 +9,7 @@
 -- local t_size = table.size(t) -- 2
 
 -- returns table size, count of elements in table
-function table.size(self)
+local function size(self)
   local length = 0
   
   for _ in pairs(self) do
@@ -20,4 +20,4 @@ function table.size(self)
 end
 
 -- return
-return table
+return size
