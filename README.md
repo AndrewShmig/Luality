@@ -17,7 +17,8 @@
 	+ remove_nils
 	+ map
 	+ size
-	
+	+ is_empty
+  
 #How to install?
 ####Step 1
 Copy "luality" directory from GitHub repository to your computer.
