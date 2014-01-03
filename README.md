@@ -21,6 +21,7 @@
   + for_each
   + is_array
   + values
+  + keys
   
 #How to install?
 ####Step 1
