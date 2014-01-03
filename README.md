@@ -18,6 +18,7 @@
 	+ map
 	+ size
 	+ is_empty
+  + for_each
   
 #How to install?
 ####Step 1
