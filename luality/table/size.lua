@@ -3,10 +3,10 @@
 -- How to use?
 --
 -- local t = {1, 2, nil, 3}
--- local t_size = table.size(t) -- 3
+-- local t_size = Luality.Table.size(t) -- 3
 --
 -- local t = {["hello"] = 12, ["why"] = "he"}
--- local t_size = table.size(t) -- 2
+-- local t_size = Luality.Table.size(t) -- 2
 
 -- returns table size, count of elements in table
 local function size(self)

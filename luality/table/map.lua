@@ -6,7 +6,7 @@
 -- local square_it = function (key, value)
 --          return value * value  
 --       end
--- table.map(t, square_it)
+-- Luality.Table.map(t, square_it)
 -- print(table.unpack(t)) -- {1, 4, 9, 16}
 
 -- calls function fn on each key-value pair from table self and sets new value for key

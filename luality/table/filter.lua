@@ -6,7 +6,7 @@
 -- local fn = function (key, value)
 --               return value%2 == 0 and true or false	 
 --            end
--- local even = table.filter(t, fn)
+-- local even = Luality.Table.filter(t, fn)
 -- print(table.unpack(even)) -- {2, 4}
 
 -- returns a new table with values for which fn function returned true

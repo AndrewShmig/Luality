@@ -3,7 +3,7 @@
 -- How to use?
 -- 
 -- local t = {1, nil, nil, 89}
--- local new_t = table.remove_nils(t) -- {1, 89}
+-- local new_t = Luality.Table.remove_nils(t) -- {1, 89}
 --
 -- Won't work if table looks like this:
 -- local t = {[1] = 2, [3] = 6, nil, nil, ["hello"] = 45}

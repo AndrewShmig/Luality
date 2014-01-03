@@ -3,7 +3,7 @@
 -- How to use?
 --
 -- local t = {1, 2, 3, 4, 5} -- t has address 0xibot7v7
--- table.remove_all(t) -- t is empty now and has 0xibot7v7 address
+-- Luality.Table.remove_all(t) -- t is empty now and has 0xibot7v7 address
 
 -- removes all elements from current table
 local function remove_all(self)
