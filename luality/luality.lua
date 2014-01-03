@@ -32,6 +32,7 @@ Luality.Table.remove_nils = require("table.remove_nils")
 Luality.Table.size = require("table.size")
 Luality.Table.is_empty = require("table.is_empty")
 Luality.Table.for_each = require("table.for_each")
+Luality.Table.is_array = require("table.is_array")
 -- coroutine
 -- debug
 -- file

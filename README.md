@@ -19,6 +19,7 @@
 	+ size
 	+ is_empty
   + for_each
+  + is_array
   
 #How to install?
 ####Step 1
