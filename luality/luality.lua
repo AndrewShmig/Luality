@@ -30,6 +30,7 @@ Luality.Table.filter = require("table.filter")
 Luality.Table.map = require("table.map")
 Luality.Table.remove_nils = require("table.remove_nils")
 Luality.Table.size = require("table.size")
+Luality.Table.is_empty = require("table.is_empty")
 -- coroutine
 -- debug
 -- file
