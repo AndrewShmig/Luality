@@ -20,6 +20,7 @@
 	+ is_empty
   + for_each
   + is_array
+  + values
   
 #How to install?
 ####Step 1
