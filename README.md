@@ -22,6 +22,7 @@
   + is_array
   + values
   + keys
+  + fill
   
 #How to install?
 ####Step 1

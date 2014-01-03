@@ -35,6 +35,7 @@ Luality.Table.for_each = require("table.for_each")
 Luality.Table.is_array = require("table.is_array")
 Luality.Table.values = require("table.values")
 Luality.Table.keys = require("table.keys")
+Luality.Table.fill = require("table.fill")
 -- coroutine
 -- debug
 -- file
