@@ -36,6 +36,7 @@ Luality.Table.is_array = require("table.is_array")
 Luality.Table.values = require("table.values")
 Luality.Table.keys = require("table.keys")
 Luality.Table.fill = require("table.fill")
+Luality.Table.mirror = require("table.mirror")
 -- coroutine
 -- debug
 -- file
