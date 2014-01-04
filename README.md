@@ -12,18 +12,19 @@
 + IO
 + Network
 + Table
-	+ remove_all
-	+ filter
-	+ remove_nils
-	+ map
-	+ size
-	+ is_empty
-  + for_each
-  + is_array
-  + values
-  + keys
-  + fill
-  + mirror
+	+ remove_all (table, array)
+	+ filter (table, array)
+	+ remove_nils (array)
+	+ map (table, array)
+	+ size (table, array)
+	+ is_empty (table, array)
+  + for_each (table, array)
+  + is_array (table, array)
+  + values (table, array)
+  + keys (table, array)
+  + fill (array)
+  + mirror (table, array)
+  + reverse (array)
   
 #How to install?
 ####Step 1

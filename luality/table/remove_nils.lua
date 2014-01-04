@@ -8,7 +8,7 @@
 -- Won't work if table looks like this:
 -- local t = {[1] = 2, [3] = 6, nil, nil, ["hello"] = 45}
 
--- returns a new table with nils removed (works only for arrays)
+-- returns a new array with nils removed (works only for arrays)
 local new_table = {}
 
 local function remove_nils(self)

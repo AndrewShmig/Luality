@@ -37,6 +37,7 @@ Luality.Table.values = require("table.values")
 Luality.Table.keys = require("table.keys")
 Luality.Table.fill = require("table.fill")
 Luality.Table.mirror = require("table.mirror")
+Luality.Table.reverse = require("table.reverse")
 -- coroutine
 -- debug
 -- file
