@@ -9,6 +9,7 @@
 + Package
 + Data structures
 + String
+  + ltrim
 + Math
 + IO
 + Network
