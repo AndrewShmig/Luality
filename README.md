@@ -11,6 +11,7 @@
 + String
   + ltrim
   + rtrim
+  + trim
 + Math
 + IO
 + Network
