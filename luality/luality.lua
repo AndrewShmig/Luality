@@ -25,6 +25,7 @@ Luality.Package = {}
 -- network
 -- string
 Luality.String.ltrim = require("string.ltrim")
+Luality.String.rtrim = require("string.rtrim")
 
 -- table
 Luality.Table.remove_all = require("table.remove_all")
