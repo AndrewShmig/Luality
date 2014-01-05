@@ -1,4 +1,5 @@
 #Luality
+###An example of how to use each function can be found at the top of each implementation file.
 
 + Algorithms
 + Coroutine
@@ -29,6 +30,7 @@
     + join
   
 #How to install?
+
 ####Step 1
 Copy "luality" directory from GitHub repository to your computer.
 
