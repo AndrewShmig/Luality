@@ -26,6 +26,7 @@
   	+ mirror
   	+ reverse
     + to_array
+    + join
   
 #How to install?
 ####Step 1
