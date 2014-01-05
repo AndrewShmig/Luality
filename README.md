@@ -25,6 +25,7 @@
   	+ fill
   	+ mirror
   	+ reverse
+    + to_array
   
 #How to install?
 ####Step 1
