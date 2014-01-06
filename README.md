@@ -12,6 +12,8 @@
   + ltrim
   + rtrim
   + trim
+  + starts_with
+  + ends_with
 + Math
 + IO
 + Network
