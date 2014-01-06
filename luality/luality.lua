@@ -29,6 +29,7 @@ Luality.String.rtrim = require("string.rtrim")
 Luality.String.trim = require("string.trim")
 Luality.String.starts_with = require("string.starts_with")
 Luality.String.ends_with = require("string.ends_with")
+Luality.String.to_array = require("string.to_array")
 
 -- table
 Luality.Table.remove_all = require("table.remove_all")

@@ -14,6 +14,7 @@
   + trim
   + starts_with
   + ends_with
+  + to_array
 + Math
 + IO
 + Network
