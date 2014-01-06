@@ -9,12 +9,11 @@
 -- returns an array of characters of passed @self string
 local function to_array(self)
   local array = {}
-  local self_length = #self
   
-  for i = 1, self_length do
-    array[#array + 1] = string.sub(self, i, i)
-  end
-  
+  Luality.Sting.for_each(self, function(index, char)
+      array[#array + 1] = char
+  end)
+
   return array
 end
 

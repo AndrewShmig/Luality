@@ -16,6 +16,7 @@
   + ends_with
   + to_array
   + for_each
+  + filter
 + Math
 + IO
 + Network

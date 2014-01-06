@@ -31,6 +31,7 @@ Luality.String.starts_with = require("string.starts_with")
 Luality.String.ends_with = require("string.ends_with")
 Luality.String.to_array = require("string.to_array")
 Luality.String.for_each = require("string.for_each")
+Luality.String.filter = require("string.filter")
 
 -- table
 Luality.Table.remove_all = require("table.remove_all")
