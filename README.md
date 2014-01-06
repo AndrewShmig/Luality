@@ -15,6 +15,7 @@
   + starts_with
   + ends_with
   + to_array
+  + for_each
 + Math
 + IO
 + Network
