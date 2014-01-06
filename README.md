@@ -10,6 +10,7 @@
 + Data structures
 + String
   + ltrim
+  	+ one
   + rtrim
   + trim
 + Math
