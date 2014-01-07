@@ -21,6 +21,8 @@ Luality.Package = {}
 -- algorithms
 -- data_structures
 -- math
+Luality.Math.gcd = require("math.gcd")
+
 -- io
 -- network
 -- string

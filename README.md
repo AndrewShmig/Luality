@@ -19,6 +19,7 @@
   + filter
   + is_palindrome
 + Math
+  + gcd
 + IO
 + Network
 + Table
