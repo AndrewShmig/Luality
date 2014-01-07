@@ -21,6 +21,7 @@
 + Math
   + gcd
   + lcm
+  + is_prime
 + IO
 + Network
 + Table

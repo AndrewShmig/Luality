@@ -23,6 +23,7 @@ Luality.Package = {}
 -- math
 Luality.Math.gcd = require("math.gcd")
 Luality.Math.lcm = require("math.lcm")
+Luality.Math.is_prime = require("math.is_prime")
 
 -- io
 -- network
