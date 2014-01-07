@@ -22,6 +22,7 @@ Luality.Package = {}
 -- data_structures
 -- math
 Luality.Math.gcd = require("math.gcd")
+Luality.Math.lcm = require("math.lcm")
 
 -- io
 -- network

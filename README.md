@@ -20,6 +20,7 @@
   + is_palindrome
 + Math
   + gcd
+  + lcm
 + IO
 + Network
 + Table
