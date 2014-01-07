@@ -32,6 +32,7 @@ Luality.String.ends_with = require("string.ends_with")
 Luality.String.to_array = require("string.to_array")
 Luality.String.for_each = require("string.for_each")
 Luality.String.filter = require("string.filter")
+Luality.String.is_palindrome = require("string.is_palindrome")
 
 -- table
 Luality.Table.remove_all = require("table.remove_all")

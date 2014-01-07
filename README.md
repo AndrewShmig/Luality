@@ -17,6 +17,7 @@
   + to_array
   + for_each
   + filter
+  + is_palindrome
 + Math
 + IO
 + Network
