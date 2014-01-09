@@ -18,6 +18,7 @@
   + for_each
   + filter
   + is_palindrome
+  + random_string
 + Math
   + gcd
   + lcm
