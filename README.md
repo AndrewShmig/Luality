@@ -19,6 +19,7 @@
   + filter
   + is_palindrome
   + random_string
+  + map
 + Math
   + gcd
   + lcm
