@@ -56,6 +56,7 @@ Luality.Table.mirror = require("table.mirror")
 Luality.Table.reverse = require("table.reverse")
 Luality.Table.to_array = require("table.to_array")
 Luality.Table.join = require("table.join")
+Luality.Table.shuffle = require("table.shuffle")
 -- coroutine
 -- debug
 -- file

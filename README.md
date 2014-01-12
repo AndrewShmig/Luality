@@ -42,6 +42,7 @@
   	+ reverse
     + to_array
     + join
+    + shuffle
   
 #How to install?
 
