@@ -20,6 +20,7 @@
   + is_palindrome
   + random_string
   + map
+  + shuffle
 + Math
   + gcd
   + lcm

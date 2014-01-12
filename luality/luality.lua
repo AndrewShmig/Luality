@@ -39,6 +39,7 @@ Luality.String.filter = require("string.filter")
 Luality.String.is_palindrome = require("string.is_palindrome")
 Luality.String.random_string = require("string.random_string")
 Luality.String.map = require("string.map")
+Luality.String.shuffle = require("string.shuffle")
 
 -- table
 Luality.Table.remove_all = require("table.remove_all")
