@@ -1,4 +1,5 @@
 #Luality
+
 ###An example of how to use each function can be found at the top of each implementation file.
 
 + Algorithms
